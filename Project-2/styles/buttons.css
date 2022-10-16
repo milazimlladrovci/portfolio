@@ -1,0 +1,20 @@
+.btn {
+    background-color: #cea135;
+    color: #11122b;
+    font-size: 1.25em;
+    padding: 10px 25px;
+    border: 1px solid  #cea135;
+    border-radius: 2px;
+    outline: none;
+    transition: 0.3s;
+}
+
+.centered-button-wrapper  {
+    display: flex;
+    justify-content: center;
+}
+
+.centered-button-wrapper  > .btn:active{
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.5);
+    transition: 0.1s;
+}

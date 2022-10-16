@@ -1,0 +1,57 @@
+.contact-grid-wrapper {
+    /* border: 1px solid red; */
+    width: 1000px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 100px;
+}
+
+
+.company-metadata-sidebar-wrapper > .logo img { 
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+/*  Version when trying myself */
+/* .contact-grid-wrapper > .company-metadata-sidebar-wrapper {
+    background: #cacaca;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+/* .company-metadata-sidebar-wrapper > .company-details-wrapper {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    border: 1px solid black;
+    padding: 5px 0px;
+} */
+/* .company-metadata-sidebar-wrapper > .company-details-wrapper div{
+    text-align: right;
+    font-family: "ubuntu condensed", sans-serif;
+    font-weight: 900;
+    margin-right: 20px;
+} */
+
+.company-metadata-sidebar-wrapper > .company-details-wrapper {
+    font-family: "ubuntu condensed" , sans-serif;
+    font-weight: 900;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid black; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: right;
+    font-size: 1.25em;
+}
+
+
+
+.company-metadata-sidebar-wrapper > .company-details-wrapper i{
+    color: #cea135;
+}
+
+/* .contact-grid-wrapper > .form {
+    background-color: bisque;
+} */
