@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    background: url(https://images.unsplash.com/photo-1483232539664-d89822fb5d3e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cGhvdG8lMjBiYWNrZ3JvdW5kfGVufDB8fDB8fA%3D%3D&w=1000&q=80);
+    font-family: Quicksand;
+}
+
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.menu li {
+    display: inline;
+}
+
+.menu a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 30px;
+    font-family: 'Patua One';
+    color: white;
+    background: chocolate;
+    margin-left: 15px;
+    border-radius: 0px 0px 25px 25px;
+}
+
+h1 {
+    color: white;
+    font-family: Arizonia;
+    font-size: 110px;
+    letter-spacing: 2px;
+}
+
+button {
+    width: 250px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 40px;
+    background: #dcdcdc;
+    color: #030a34;
+    font-weight: bolder;
+    font-family: Quicksand;
+    font-size: 20px;
+}
+
+#butonat {
+    text-align: center;
+}
+
+
+#seksioni1 {
+    background: #dcdcdc;
+}
+
+#seksioni2 h1 {
+    color: #030a34;
+    font-size: 55px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+
+#seksioni2 p, ul{
+    color: #030a34;
+    font-family: Quicksand;
+    padding-right: 10px;
+    font-size: 18px;
+    line-height: 20px;}
+
+
+#figura { padding: 10px;
+     float: left;
+    width: 40%;
+    height: 295px;
+    overflow: hidden; }
+
+
+#rezervimi
+{
+    background: #141C2F;
+    text-align: center;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+#tabela_ime{
+    margin-left:  400px;
+
+}
+input[type=text], select {
+    width: 200%;
+    padding: 15px 25px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=submit]{
+    padding: 10px 25px;
+    font-size: 14px;
+    border-radius:  5px;
+    background: #28ad54;
+    color: white;
+    border: none;
+}
