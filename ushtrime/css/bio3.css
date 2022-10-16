@@ -1,0 +1,78 @@
+body{
+    background-image: url(../img/background.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: url(../img/background.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{        
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+.container{
+    width: 100%;
+    margin: 0; 
+}
+.fixed-header, .fixed-footer{
+    width: 100%;
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: fixed;        
+    background: #333;
+    padding: 20px 0;
+    color: #fff;
+    text-align: center;
+}
+.fixed-header{
+    top: 0;
+    left: 0;
+}
+.fixed-footer{
+    bottom: 0;
+    left: 0;
+}    
+
+nav a{
+    color: #fff;
+    text-decoration: none;
+    padding: 7px 25px;
+    display: inline-block;
+}
+nav a:hover {
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+}
+.container p{
+    line-height: 200px; 
+}
+
+span{
+    opacity: 0.4;
+}
+
+table th, td {
+    background-color: white;
+    border: 1px solid black;
+    border-collapse: collapse;
+
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 700px;
+}
+table th{
+    width: 500px;
+    height: 50px;
+    background-color: palegreen;
+}
+.foto1 {
+width: 100%;
+}
+
+.ekremul{
+    text-align: left;
+}

@@ -1,0 +1,110 @@
+body{        
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+.container{
+    width: 100%;
+    margin: 0; 
+}
+.fixed-header, .fixed-footer{
+    width: 100%;
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: fixed;        
+    background: #333;
+    padding: 20px 0;
+    color: #fff;
+    text-align: center;
+}
+.fixed-header{
+    top: 0;
+    left: 0;
+}
+.fixed-footer{
+    bottom: 0;
+    left: 0;
+}    
+
+nav a{
+    color: #fff;
+    text-decoration: none;
+    padding: 7px 25px;
+    display: inline-block;
+    
+
+}
+nav a:hover {
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+}
+
+.container p{
+    line-height: 200px; 
+}
+
+span{
+    opacity: 0.4;
+}
+
+a img{
+    align-items: center;
+}
+
+.img{
+    padding-left: 100px;
+}
+
+
+body{
+    background-image: url("../img/background.jpg");
+}
+
+.container1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+
+.card {
+    background-color: white;
+    width: 270px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.card-image {
+    background-color: aqua;
+    height: 180px;
+    margin-bottom: 15px;
+    background-size: cover;
+}
+
+.car-1{
+    background-image:url("../img/audi-a6-bardh.jpg") ;
+}
+
+.car-2{
+    background-image:url("../img/bmw530.jpeg") ;
+}
+
+.car-3{
+    background-image:url("../img/mercedes\ benz\ c220.jpg") ;
+}
+
+.card p {
+    padding: 0px 10px 10px 10px;
+    margin-top: -15px;
+}
+.card h2 {
+    padding: 10px;
+}
+
+.card:hover {
+    background-color: rgb(62, 62, 62);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+}

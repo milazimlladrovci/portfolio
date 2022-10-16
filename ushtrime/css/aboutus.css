@@ -1,0 +1,146 @@
+body{        
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+.container{
+    width: 100%;
+    margin: 0; 
+}
+.fixed-header, .fixed-footer{
+    width: 100%;
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: fixed;        
+    background: #333;
+    padding: 20px 0;
+    color: #fff;
+    text-align: center;
+}
+.fixed-header{
+    top: 0;
+    left: 0;
+}
+.fixed-footer{
+    bottom: 0;
+    left: 0;
+}    
+
+nav a{
+    color: #fff;
+    text-decoration: none;
+    padding: 7px 25px;
+    display: inline-block;
+}
+nav a:hover {
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+}
+.container p{
+    line-height: 200px; 
+}
+
+span{
+    opacity: 0.4;
+}
+
+a img{
+    align-items: center;
+}
+
+.img{
+    padding-left: 100px;
+}
+body {
+    background-image: url(https://media.istockphoto.com/photos/round-podium-with-pink-and-green-lights-background-picture-id1314248856?b=1&k=20&m=1314248856&s=612x612&w=0&h=A0XU6Q1-cUajWLt-o3W-QsOJEv4vH6leEPEy44C0iuo=);
+    background-size: cover;
+}
+
+.container1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.card {
+    background-color: white;
+    width: 270px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 15px;
+    margin-top: 80px;
+    margin-bottom: 80px;;
+}
+
+.card-image {
+    background-color: aqua;
+    height: 180px;
+    margin-bottom: 15px;
+    background-size: cover;
+}
+
+.puntori1{
+    background-image:url("../img/foto1.avif");
+}
+
+.puntori2{
+    background-image:url("../img/foto2.avif");
+}
+.puntori3{
+    background-image:url("../img/foto3.avif");
+}.puntori4{
+    background-image:url("../img/foto4.avif");
+}
+
+.card p {
+    padding: 0px 10px 10px 10px;
+    margin-top: -15px;
+}
+.card h2 {
+    padding: 10px;
+}
+
+.card:hover {
+    background-color: rgb(62, 62, 62);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+}
+.card h3 {
+    padding-left: 10px;
+    margin-top: -20px;
+    
+}
+
+.card p {
+    padding-bottom: 10px;
+}
+.card a {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    display: block;
+    text-align: center;
+    margin: 20px 70px;
+    margin-top: -20px;
+    text-decoration: none;
+    border-radius: 25px;
+}
+
+.card:hover {
+    background-color: rgb(62, 62, 62);
+    color: white;
+}
+
+.video {
+    margin-top: 100px;
+}
+
+
+ 
+
+
+
+
+

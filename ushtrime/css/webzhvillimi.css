@@ -1,0 +1,64 @@
+body{
+    background-image: url(../img/backkk3.png);
+    background-size: cover;
+}
+.content {
+    width: 600px;
+    height: auto;
+    background-color: #fff;
+    text-align: center;
+    margin: 100px auto; 
+    font-size: 22px;
+
+}
+.content:hover{
+    background-color: rgb(62, 62, 62);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+}
+body{        
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+.container{
+    width: 100%;
+    margin: 0; 
+}
+.fixed-header, .fixed-footer{
+    width: 100%;
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: fixed;        
+    background: #333;
+    padding: 20px 0;
+    color: #fff;
+    text-align: center;
+}
+.fixed-header{
+    top: 0;
+    left: 0;
+}
+.fixed-footer{
+    bottom: 0;
+    left: 0;
+}    
+
+nav a{
+    color: #fff;
+    text-decoration: none;
+    padding: 7px 25px;
+    display: inline-block;
+}
+nav a:hover {
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+}
+.container p{
+    line-height: 200px; 
+}
+
+span{
+    opacity: 0.4;
+}
